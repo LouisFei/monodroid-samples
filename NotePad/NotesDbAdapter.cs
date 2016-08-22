@@ -31,9 +31,7 @@ namespace NotePad
         private const string Tag = "NotesDbAdapter";
 
         // Database creation sql statement
-        private const string DatabaseCreate = 
-            "create table notes (_id integer primary key autoincrement, "
-            + "title text not null, body text not null);";
+        private const string DatabaseCreate = "create table notes (_id integer primary key autoincrement, title text not null, body text not null);";
 
         private const string DBName = "data";
         private const string DatabaseTable = "notes";
